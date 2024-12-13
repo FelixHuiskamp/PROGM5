@@ -16,7 +16,7 @@ public class Unit : MonoBehaviour, IMovable, IDamagable
     private bool isAlive = true;
 
     
-    protected virtual void Start()
+    protected void Start()
     {
         startingPosition = transform.position;
     }
